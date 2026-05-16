@@ -1,20 +1,64 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# OdontoManage 🦷
 
-# Run and deploy your AI Studio app
+O **OdontoManage** é um sistema de gestão clínica desenvolvido como parte do **Projeto Integrador em Computação III** da Universidade Virtual do Estado de São Paulo (UNIVESP). O objetivo do projeto é otimizar os processos operacionais e administrativos de clínicas odontológicas, facilitando o gerenciamento de pacientes, agendamentos, prontuários eletrônicos e controle financeiro.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/ba21cc01-97cf-4fb3-8380-735ac3b9a95c
+## 📌 Sumário
 
-## Run Locally
+- [Recursos Principais](#-recursos-principais)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Arquitetura do Sistema](#-arquitetura-do-sistema)
+- [Pré-requisitos](#-pré-requisitos)
+- [Como Executar o Projeto](#-como-executar-o-projeto)
+- [Estrutura de Pastas](#-estrutura-de-pastas)
+- [Autores (Grupo PI)](#-autores-grupo-pi)
+- [Licença](#-licença)
 
-**Prerequisites:**  Node.js
+---
 
+## 🚀 Recursos Principais
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Gestão de Pacientes:** Cadastro completo com histórico médico (anamnese), dados de contato e evolução dos tratamentos.
+- **Agenda de Consultas:** Agendamento dinâmico com visualização por dia/semana/mês, além de controle de status (Confirmado, Cancelado, Realizado).
+- **Prontuário Eletrônico:** Registro detalhado de procedimentos realizados com suporte a odontograma visual.
+- **Módulo Financeiro:** Controle de fluxo de caixa, pagamentos de tratamentos, emissão de recibos e controle de inadimplência.
+- **Relatórios Gerenciais:** Geração de relatórios de produtividade da clínica e faturamento.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi construído utilizando as seguintes tecnologias:
+
+* **Front-end:** HTML5, CSS3, JavaScript (ou frameworks/bibliotecas como React / Vue / Angular / Bootstrap — *ajustar conforme seu projeto*)
+* **Back-end:** Python (Django / Flask) **OU** Node.js (Express) **OU** PHP (Laravel) — *ajustar conforme seu projeto*
+* **Banco de Dados:** PostgreSQL / MySQL / SQLite
+* **Autenticação:** JWT ou Sessões seguras para controle de acesso (Administrador, Dentista, Recepcionista).
+
+---
+
+## 📐 Arquitetura do Sistema
+
+O projeto segue o padrão de arquitetura **MVC (Model-View-Controller)** ou **Arquitetura em Camadas (Client-Server)**, garantindo a separação de responsabilidades entre a interface do usuário, as regras de negócio e a persistência de dados.
+
+---
+
+## 📋 Pré-requisitos
+
+Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+* Git
+* Ambiente de execução de acordo com sua stack (ex: Node.js >= 18.x, Python >= 3.10 ou PHP >= 8.1)
+* Gerenciador de Banco de Dados correspondente
+
+---
+
+## 💻 Como Executar o Projeto
+
+Siga os passos abaixo para rodar a aplicação localmente:
+
+### 1. Clonar o Repositório
+```bash
+git clone [https://github.com/pi03univesp/odontomanage.git](https://github.com/pi03univesp/odontomanage.git)
+cd odontomanage
