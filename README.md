@@ -1,40 +1,38 @@
-# OdontoManage 🦷
+OdontoManage é um sistema de gestão clínica desenvolvido como parte do Projeto Integrador em Computação III da Universidade Virtual do Estado de São Paulo. O objetivo do projeto é otimizar os processos operacionais e administrativos de clínicas odontológicas, facilitando o gerenciamento de pacientes, agendamentos, prontuários eletrônicos e controle financeiro.
 
-O **OdontoManage** é um sistema de gestão clínica desenvolvido como parte do **Projeto Integrador em Computação III** da Universidade Virtual do Estado de São Paulo (UNIVESP). O objetivo do projeto é otimizar os processos operacionais e administrativos de clínicas odontológicas, facilitando o gerenciamento de pacientes, agendamentos, prontuários eletrônicos e controle financeiro.
+🚀 Recursos Principais:
 
----
+Gestão de Pacientes: Cadastro completo com histórico médico, anamnese, dados de contato e evolução dos tratamentos.
+Agenda de Consultas: Agendamento dinâmico com visualização por dia, semana e mês, além de controle de status.
+Prontuário Eletrônico: Registro detalhado de procedimentos realizados com suporte a odontograma visual. 
+Módulo Financeiro: Controle de fluxo de caixa, pagamentos de tratamentos, emissão de recibos e controle de inadimplência.
+Relatórios Gerenciais: Geração de relatórios de produtividade da clínica e faturamento.
 
-## 🚀 Recursos Principais
+🛠️ Tecnologias Utilizadas:
 
-- **Gestão de Pacientes:** Cadastro completo com histórico médico (anamnese), dados de contato e evolução dos tratamentos.
-- **Agenda de Consultas:** Agendamento dinâmico com visualização por dia/semana/mês, além de controle de status (Confirmado, Cancelado, Realizado).
-- **Prontuário Eletrônico:** Registro detalhado de procedimentos realizados com suporte a odontograma visual.
-- **Módulo Financeiro:** Controle de fluxo de caixa, pagamentos de tratamentos, emissão de recibos e controle de inadimplência.
-- **Relatórios Gerenciais:** Geração de relatórios de produtividade da clínica e faturamento.
+O ecossistema do projeto foi construído com as seguintes tecnologias:
+HTML5, CSS3, JavaScript, Bootstrap, Python, Django, PostgreSQL e JWT (JSON Web Tokens)
 
----
+🔒 Segurança: 
 
-## 📐 Arquitetura do Sistema
+O controle de acesso por JWT garante rotas protegidas e níveis de permissão específicos para Administradores, Dentistas e Recepcionistas.
 
-O projeto segue o padrão de arquitetura **MVC (Model-View-Controller)** ou **Arquitetura em Camadas (Client-Server)**, garantindo a separação de responsabilidades entre a interface do usuário, as regras de negócio e a persistência de dados.
+📐 Arquitetura do Sistema:
 
----
+O projeto segue o padrão de arquitetura Model-View-Controller (MVC), garantindo a separação de responsabilidades entre a interface do usuário, as regras de negócio e a persistência de dados.
 
-## 📋 Pré-requisitos
+📋 Pré-requisitos:
 
-Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+Antes de iniciar, você precisará ter instalado em sua máquina:
 
-* Git
-* Ambiente de execução de acordo com sua stack (ex: Node.js >= 18.x, Python >= 3.10 ou PHP >= 8.1)
-* Gerenciador de Banco de Dados correspondente
+Git (para clonagem e controle de versão)
+Python 3.10 ou superior
+PostgreSQL (banco de dados ativo)
 
----
+👥 Autores:
 
-## 💻 Como Executar o Projeto
+Trabalho desenvolvido com dedicação pelos integrantes do Grupo de Projeto Integrador III da UNIVESP.
 
-Siga os passos abaixo para rodar a aplicação localmente:
+📄 Licença:
 
-### 1. Clonar o Repositório
-```bash
-git clone [https://github.com/pi03univesp/odontomanage.git](https://github.com/pi03univesp/odontomanage.git)
-cd odontomanage
+Este projeto é desenvolvido exclusivamente para fins acadêmicos e está sob a licença MIT.
