@@ -4,19 +4,6 @@ O **OdontoManage** é um sistema de gestão clínica desenvolvido como parte do 
 
 ---
 
-## 📌 Sumário
-
-- [Recursos Principais](#-recursos-principais)
-- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Arquitetura do Sistema](#-arquitetura-do-sistema)
-- [Pré-requisitos](#-pré-requisitos)
-- [Como Executar o Projeto](#-como-executar-o-projeto)
-- [Estrutura de Pastas](#-estrutura-de-pastas)
-- [Autores (Grupo PI)](#-autores-grupo-pi)
-- [Licença](#-licença)
-
----
-
 ## 🚀 Recursos Principais
 
 - **Gestão de Pacientes:** Cadastro completo com histórico médico (anamnese), dados de contato e evolução dos tratamentos.
@@ -24,17 +11,6 @@ O **OdontoManage** é um sistema de gestão clínica desenvolvido como parte do 
 - **Prontuário Eletrônico:** Registro detalhado de procedimentos realizados com suporte a odontograma visual.
 - **Módulo Financeiro:** Controle de fluxo de caixa, pagamentos de tratamentos, emissão de recibos e controle de inadimplência.
 - **Relatórios Gerenciais:** Geração de relatórios de produtividade da clínica e faturamento.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-Este projeto foi construído utilizando as seguintes tecnologias:
-
-* **Front-end:** HTML5, CSS3, JavaScript (ou frameworks/bibliotecas como React / Vue / Angular / Bootstrap — *ajustar conforme seu projeto*)
-* **Back-end:** Python (Django / Flask) **OU** Node.js (Express) **OU** PHP (Laravel) — *ajustar conforme seu projeto*
-* **Banco de Dados:** PostgreSQL / MySQL / SQLite
-* **Autenticação:** JWT ou Sessões seguras para controle de acesso (Administrador, Dentista, Recepcionista).
 
 ---
 
