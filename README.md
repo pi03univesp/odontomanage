@@ -2,11 +2,11 @@ OdontoManage é um sistema de gestão clínica desenvolvido como parte do Projet
 
 🚀 Recursos Principais:
 
-Gestão de Pacientes: Cadastro completo com histórico médico, anamnese, dados de contato e evolução dos tratamentos.
-Agenda de Consultas: Agendamento dinâmico com visualização por dia, semana e mês, além de controle de status.
-Prontuário Eletrônico: Registro detalhado de procedimentos realizados com suporte a odontograma visual. 
-Módulo Financeiro: Controle de fluxo de caixa, pagamentos de tratamentos, emissão de recibos e controle de inadimplência.
-Relatórios Gerenciais: Geração de relatórios de produtividade da clínica e faturamento.
+- Gestão de Pacientes: Cadastro completo com histórico médico, anamnese, dados de contato e evolução dos tratamentos.
+- Agenda de Consultas: Agendamento dinâmico com visualização por dia, semana e mês, além de controle de status.
+- Prontuário Eletrônico: Registro detalhado de procedimentos realizados com suporte a odontograma visual. 
+- Módulo Financeiro: Controle de fluxo de caixa, pagamentos de tratamentos, emissão de recibos e controle de inadimplência.
+- Relatórios Gerenciais: Geração de relatórios de produtividade da clínica e faturamento.
 
 🛠️ Tecnologias Utilizadas:
 
