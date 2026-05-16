@@ -10,7 +10,7 @@ OdontoManage é um sistema de gestão clínica desenvolvido como parte do Projet
 
 🛠️ Tecnologias Utilizadas:
 
-O ecossistema do projeto foi construído com as seguintes tecnologias:
+O ecossistema do projeto foi construído com as seguintes tecnologias: 
 HTML5, CSS3, JavaScript, Bootstrap, Python, Django, PostgreSQL e JWT (JSON Web Tokens)
 
 🔒 Segurança: 
@@ -25,9 +25,9 @@ O projeto segue o padrão de arquitetura Model-View-Controller (MVC), garantindo
 
 Antes de iniciar, você precisará ter instalado em sua máquina:
 
-Git (para clonagem e controle de versão)
-Python 3.10 ou superior
-PostgreSQL (banco de dados ativo)
+- Git (para clonagem e controle de versão)
+- Python 3.10 ou superior
+- PostgreSQL (banco de dados ativo)
 
 👥 Autores:
 
